@@ -1,0 +1,1 @@
+This is where images that I am making will be stored. I will store the complete working files for evidence that the images are not AI generated.
