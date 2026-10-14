@@ -1,0 +1,1 @@
+To add equations in medium, we can't directly paste latex code. The editor does not render it. Instead we have to take screen shots of already rendered equations and paste them into the medium editor. This is the folder in which those screen shots will be saved
