@@ -63,9 +63,9 @@ Let $X$ be some set, let $2^X$ be the power set of $X$. A subset of this power s
 Figure 6 has the rules that a subset of a powerset must be adhere to in order to be called a sigma algebra. The simplest sigma algebra that we can have on a set (sometimes referred to as the “trivial” sigma algebra) is:
 
 The simplest sigma algebra is $\{X, \emptyset\}$
-	- first condition holds trivially
-	- second condition holds since $X^c=\emptyset$ and $\emptyset^c = X$ 
-	- the third condition holds since any union we can even make is a combination of $X$ and $\emptyset$, which will equal either $X$ or $\emptyset$, both of which are included in our sigma algebra
+- first condition holds trivially
+- second condition holds since $X^c=\emptyset$ and $\emptyset^c = X$ 
+- the third condition holds since any union we can even make is a combination of $X$ and $\emptyset$, which will equal either $X$ or $\emptyset$, both of which are included in our sigma algebra
 
 *Figure 7*
 
