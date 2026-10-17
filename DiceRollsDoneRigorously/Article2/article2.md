@@ -19,3 +19,21 @@ to define a function we need:
 - 2. The rule: what our function actually does (for example, adding two dice rolls together)
 - The codomain: a set that is large enough to contain every possible output we think our function will produce
 - The range: this is a subset of the codomain, and the result of actually applying our function to each element in the domain.
+
+### Step 1: Identify Our Domain
+In this experiment, we are adding the result of two dice rolls together. In our case, we want the domain of our function to be the sample space of our experiment:
+$$
+\Omega=\{(i,j):i,j\in\{1,2,3,4,5,6\}\}
+$$
+*figure 2*
+### Step 2: Identify our Rule
+The rule is what we want our function to do to elements in our domain. Since we are adding the result of rolling two dice together, our rule is then:
+$$
+X((i,j))=i+j
+$$
+*figure 3*
+### Step 3: Identify our Codomain
+We need a set that is large enough to contain the result of applying our rule from step 2 to every element in our domain. In this case, we know that adding two natural numbers together will result in a natural number. This means using the set of natural numbers will definitely contain all the possible outputs of our rule from step 2. Our codomain can then be stated as:
+$$
+\mathbb{N}
+$$
