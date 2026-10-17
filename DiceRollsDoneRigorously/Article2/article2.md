@@ -15,3 +15,7 @@ $$
 *figure 1*
 
 to define a function we need:
+- 1. The domain: our possible input values
+- 2. The rule: what our function actually does (for example, adding two dice rolls together)
+- The codomain: a set that is large enough to contain every possible output we think our function will produce
+- The range: this is a subset of the codomain, and the result of actually applying our function to each element in the domain.
