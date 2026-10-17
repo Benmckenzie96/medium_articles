@@ -15,5 +15,3 @@ $$
 *figure 1*
 
 to define a function we need:
-1.asdf
-2. please let me make a numbered list
