@@ -37,6 +37,8 @@ We need a set that is large enough to contain the result of applying our rule fr
 $$
 \mathbb{N}
 $$
+
+One note here: we only require that the codomain is big enough. The natural numbers are an intuitive choice here, but it is equally valid to select the integers, rational numbers, real numbers, or even the set of complex numbers.
 ### Step 4: Identify the Range
 We need to carve out our range from the codomain. We do this by applying our rule to every element of our domain. Using the following symbol for an element of our domain:
 $$
