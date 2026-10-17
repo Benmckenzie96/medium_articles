@@ -55,3 +55,8 @@ R(X)&=\{2,3,4,5,6,7,8,9,10,11,12\}\\
 \end{aligned}
 $$
 *figure 5*
+### Tying it together
+With the 4 steps above concluded, we can tie everything together and formally state our function as:
+$$
+X:\Omega\rightarrow R(X),\ X((i,j)\in \Omega)=i+j
+$$
