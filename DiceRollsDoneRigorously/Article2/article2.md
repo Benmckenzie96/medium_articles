@@ -37,3 +37,19 @@ We need a set that is large enough to contain the result of applying our rule fr
 $$
 \mathbb{N}
 $$
+### Step 4: Identify the Range
+We need to carve out our range from the codomain. We do this by applying our rule to every element of our domain. Using the following symbol for an element of our domain:
+$$
+\omega=(i,j)\in\Omega
+$$
+*figure 4*
+
+We can define our range as:
+$$
+\begin{aligned}
+R(X)&:=\{X(\omega),\ \forall\omega\in\Omega\}\\
+R(X)&=\{2,3,4,5,6,7,8,9,10,11,12\}\\
+&\text{Note that } R(X)\subseteq \mathbb{N}
+\end{aligned}
+$$
+*figure 5*
