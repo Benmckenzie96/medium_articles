@@ -14,11 +14,10 @@ X:A\rightarrow B,\ X(a\in A)=b\in B
 $$
 *figure 1*
 
-to define a function we need:
+to define a function we need three things:
 - 1. The domain: our possible input values
 - 2. The rule: what our function actually does (for example, adding two dice rolls together)
-- The codomain: a set that is large enough to contain every possible output we think our function will produce
-- The range: this is a subset of the codomain, and the result of actually applying our function to each element in the domain.
+- 3. The codomain: a set that is large enough to contain every possible output we think our function will produce
 
 ### Step 1: Identify Our Domain
 In this experiment, we are adding the result of two dice rolls together. In our case, we want the domain of our function to be the sample space of our experiment:
@@ -39,8 +38,8 @@ $$
 $$
 
 One note here: we only require that the codomain is big enough. The natural numbers are an intuitive choice here, but it is equally valid to select the integers, rational numbers, real numbers, or even the set of complex numbers.
-### Step 4: Identify the Range
-We need to carve out our range from the codomain. We do this by applying our rule to every element of our domain. Using the following symbol for an element of our domain:
+### The Range of a Function
+We have the codomain of our function, but it is often useful to determine the *range* of our function. The range of a function is the set of possible values that the function can take. The range is a subset of the codomain. We obtain the range by applying our rule to every element of our domain. Using the following symbol for an element of our domain:
 $$
 \omega=(i,j)\in\Omega
 $$
