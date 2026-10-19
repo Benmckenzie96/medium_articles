@@ -76,4 +76,20 @@ $$
 *figure 7*
 
 An example might make this easier to understand. First, let's define a function in the manner that we have described above:
+$$
+\begin{aligned}
+\text{Let }f:\mathbb{Z}\rightarrow\mathbb{Z},\text{ where }f(x\in\mathbb{Z})=x^2
+\end{aligned}
+$$
+*figure 8*
+
+We can compute some preimages as follows:
+$$
+\begin{aligned}
+A=&\{4, 9\}\subseteq\mathbb{Z}.\ f^-1[A]=\{x\in\mathbb{Z}:f(x)\in A\}\\
+&\text{so } f^{-1}[A]=\{-2, 2, -3, 3\}\\
+B=&\{25\}\subseteq Z.\ f^-1[B]=\{x\in Z:f(x)\in B\}\\
+&\text{so } f^{-1}[B]=\{-5, 5\}
+\end{aligned}
+$$
 
