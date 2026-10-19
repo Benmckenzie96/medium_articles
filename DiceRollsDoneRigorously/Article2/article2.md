@@ -89,7 +89,23 @@ $$
 A=&\{4, 9\}\subseteq\mathbb{Z}.\ f^-1[A]=\{x\in\mathbb{Z}:f(x)\in A\}\\
 &\text{so } f^{-1}[A]=\{-2, 2, -3, 3\}\\
 B=&\{25\}\subseteq Z.\ f^-1[B]=\{x\in Z:f(x)\in B\}\\
-&\text{so } f^{-1}[B]=\{-5, 5\}
+&\text{so } f^{-1}[B]=\{-5, 5\}\\
+C=&\{2, 16\}.\  f^-1[C]=\{x\in Z:f(x)\in C\}\\
+&\text{so }f^{-1}[C] = \{-4,4\}
 \end{aligned}
+$$
+*figure 9*
+
+An important note to make regarding figure 9 can be seen in the third preimage example. Since our domain and codomain are both integers, so even though
+$$
+C=\{2,16\}
+$$
+there is no integer that can be squared to equal 2:
+$$
+!\exist\ i\in\mathbb{Z}:i^2=2
+$$
+That is why we don't include it in our preimage. Another way to look at this is:
+$$
+f^{-1}[{2}]=\emptyset
 $$
 
