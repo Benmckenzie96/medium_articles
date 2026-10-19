@@ -55,13 +55,15 @@ R(X)&=\{2,3,4,5,6,7,8,9,10,11,12\}\\
 $$
 *figure 5*
 ### Tying it together
-With the 4 steps above concluded, we can tie everything together and formally state our function as:
+With the 3 steps above concluded, we can tie everything together and formally state our function as:
 $$
-X:\Omega\rightarrow R(X),\ X((i,j)\in \Omega)=i+j
+X:\Omega\rightarrow \mathbb{N},\ X((i,j)\in \Omega)=i+j
 $$
 *figure 6*
 
-That was quite a bit for the start of an article, but defining these things rigidly will help in the following sections, and allow us to gain a deep understanding of what a random variable is.
+with the range of our function described in figure 5.
+
+That was quite a bit for the start of an article! But, defining these things rigidly will help in the following sections, and allow us to gain a deep understanding of what a random variable is.
 ## Measurable Functions
 To move forward with this process, we need to learn about measurable functions. At a high level, a measurable function is simple: *a measurable function from one measurable space to another measurable space that preserves the structures of the two spaces.* This definition is incomplete, and not very helpful for understanding measurable functions. We need to dig deeper.
 
