@@ -60,3 +60,8 @@ With the 4 steps above concluded, we can tie everything together and formally st
 $$
 X:\Omega\rightarrow R(X),\ X((i,j)\in \Omega)=i+j
 $$
+*figure 6*
+
+That was quite a bit for the start of an article, but defining these things rigidly will help in the following sections, and allow us to gain a deep understanding of what a random variable is.
+## Measurable Functions
+To move forward with this process, we need to learn about measurable functions. At a high level, a measurable function is simple: *a measurable function from one measurable space to another measurable space that preserves the structures of the two spaces.* This definition is incomplete, and not very helpful for understanding measurable functions. We need to dig deeper.
