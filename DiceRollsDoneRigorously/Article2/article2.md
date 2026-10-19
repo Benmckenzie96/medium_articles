@@ -64,7 +64,7 @@ $$
 with the range of our function described in figure 5.
 
 That was quite a bit for the start of an article! But, defining these things rigidly will help in the following sections, and allow us to gain a deep understanding of what a random variable is.
-## Measurable Functions
+## Preimages
 To move forward with this process, we need to learn about measurable functions. At a high level, a measurable function is simple: *a measurable function from one measurable space to another measurable space that preserves the structures of the two spaces.* This definition is incomplete, and not very helpful for understanding measurable functions. We need to dig deeper.
 
 
@@ -75,4 +75,5 @@ f^{-1}[B]=\{x\in X:f(x)\in Y\}
 $$
 *figure 7*
 
-An example might make this easier to understand
+An example might make this easier to understand. First, let's define a function in the manner that we have described above:
+
