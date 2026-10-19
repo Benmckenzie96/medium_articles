@@ -73,3 +73,5 @@ $$
 f^{-1}[B]=\{x\in X:f(x)\in Y\}
 $$
 *figure 7*
+
+An example might make this easier to understand
