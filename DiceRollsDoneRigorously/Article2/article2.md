@@ -65,3 +65,11 @@ $$
 That was quite a bit for the start of an article, but defining these things rigidly will help in the following sections, and allow us to gain a deep understanding of what a random variable is.
 ## Measurable Functions
 To move forward with this process, we need to learn about measurable functions. At a high level, a measurable function is simple: *a measurable function from one measurable space to another measurable space that preserves the structures of the two spaces.* This definition is incomplete, and not very helpful for understanding measurable functions. We need to dig deeper.
+
+
+First, we need to define a concept known as the “preimage” of a set given a function:
+$$
+\text{Let } f:X\rightarrow Y \text{ be a function from the set }X \text{ to the set }Y.\\ \text{ The preimage of a subset of }Y,B\subseteq Y, \text{ is the set: }\\
+f^{-1}[B]=\{x\in X:f(x)\in Y\}
+$$
+*figure 7*
