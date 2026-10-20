@@ -126,3 +126,16 @@ $$
 $$
 *figure 10*
 
+Don't worry if this seems complicated. Some break down will make things more apparent. First, note the fact that a measurable function is called a *measurable* function and as we learned from part 1 of this series, a *measurable space* is a set equipped with some sigma algebra. This gets us through the statement:
+$$
+``\text{let }(X,\Sigma)\text{ and }(Y,T)\text{ be two measurable spaces.}"
+$$
+*figure 10.1*
+
+Next, we have:
+$$
+``\text{A function, }f: X\rightarrow Y\text{ is said to be measurable...}"
+$$
+*figure 10.2*
+
+We know the rigid definition of 
