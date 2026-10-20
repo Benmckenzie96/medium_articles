@@ -138,4 +138,22 @@ $$
 $$
 *figure 10.2*
 
-We know the rigid definition of 
+We know the rigid definition of function from this article. In figure 10.2 the portion "*is said to be measurable*" is what we are actively defining, so we don't need to dig deeper on this part.
+
+The next part of the definition reads:
+$$
+``\text{if for every element of the sigma}
+\text{ algebra }T\text{, the preimage of that}\\
+\text{element under }f\text{ is contained in the sigma algebra }\Sigma."
+$$
+*figure 10.3*
+
+We know what preimages are from this article. We also know that the elements of a sigma algebra are sets. So, Figure 10.3 is saying that we need every element contained in the destination's sigma algebra to have its preimage in the source's sigma algebra.
+
+Finally, we simply state what we have above in mathematical symbols:
+
+$$
+``f^{-1}[t]\in\Sigma, \forall t\in T"
+$$
+*figure 10.4
+
