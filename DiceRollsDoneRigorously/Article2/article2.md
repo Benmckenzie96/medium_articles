@@ -155,5 +155,5 @@ Finally, we simply state what we have above in mathematical symbols:
 $$
 ``f^{-1}[t]\in\Sigma, \forall t\in T"
 $$
-*figure 10.4
+*figure 10.4*
 
