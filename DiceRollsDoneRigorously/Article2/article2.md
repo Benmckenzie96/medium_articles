@@ -115,3 +115,13 @@ plan:
 - relate the example in figure 9 to measurable spaces in which both have sigma algebra equal to the powerset
 - make a note that for a normal function we just have f:x->y, whereas measurable functions are directly defined using sigma algebras, so we have domain and codomains as measurable spaces.
 - pivot from writing to creating the digital version of that measurable function visualization I have(in notebook paper in my backpack)
+
+This section will cover what a measurable function is. We will start with the formal definition of measurable function and break it down.
+
+$$
+\text{Formally, we defin a measurable function as follows: let } (X,\Sigma)\text{ and } (Y,T)\text{ be two measurable}\\
+\text{spaces. A function, }f:X\rightarrow Y\text{ is said to be measurable if for every element of the sigma}\\
+\text{algebra }T\text{, the preimage of that element under }f\text{ is contained in the sigma algebra }\Sigma.\\
+\text{i.e. }f^{-1}[t]\in\Sigma, \forall t\in T
+$$
+*figure 10*
