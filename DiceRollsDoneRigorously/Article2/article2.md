@@ -164,3 +164,21 @@ The following image provides a visualization of a measurable function:
 *Figure 12*
 
 In this image we have the components of a measurable function. In white, we have our sigma algebras, the function between the two, and our preimage direction. The blue circles represent some part of our base sets. The red circles are the specific sets we are current mapping. The green dots are points in the sets we are currently mapping, and the orange dots simply represent points in our base sets. Finally, in red text we have the mathematical symbols for our image and preimage.
+## The Random Variable
+The reason we have gone through so much effort to define sigma algebras, probability spaces, and now measurable functions is to make the concept of the random variable easier to understand.
+
+Recall from the previous article in this series that a probability space is the tuple:
+$$
+(\Omega,\mathcal{F},\mathcal{P})
+$$
+*Figure 13*
+
+where we have:
+$$
+\begin{aligned}
+&\Omega:\text{ The sample space}\\
+&\mathcal{F}:\text{ The event space}\\
+&\mathcal{P}:\text{ The probability measure}
+\end{aligned}
+$$
+*figure 14*
