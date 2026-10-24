@@ -192,3 +192,27 @@ $$
 \end{aligned}
 $$
 *Figure 15*
+
+First off, pat yourself on the back for getting this far! We already know what a measurable function is, so we can check that box. The next question is what the *measurable spaces* of both the domain and range are. We already have the domain covered from the first article in this series: *the domain of the random variable is the measurable space of our probability tuple.* All we need to do is drop our probability measure (for now), making a *measurable space*, and we have that covered. **So what is the range?**
+
+The range of a random variable, in general, has two requirements:
+
+1. The range of our random variable needs to be a *measurable space*. This requirement, on it’s own, is pretty easy to understand given what we learned from the previous article in this series: *a measurable space is a set, together with a sigma algebra.* If we examine the definition of random variables given in figure 15, the measurable space our random variable’s range has is:
+$$
+(E,\mathcal{E})
+$$
+*figure 16*
+
+2. Since a random variable is a measurable function, we need to adhere to:
+$$
+\text{Formally, we define a measurable function as follows: let } (X,\Sigma)\text{ and } (Y,T)\text{ be two measurable}\\
+\text{spaces. A function, }f:X\rightarrow Y\text{ is said to be measurable if for every element of the sigma}\\
+\text{algebra }T\text{, the preimage of that element under }f\text{ is contained in the sigma algebra }\Sigma.\\
+\text{i.e. }f^{-1}[t]\in\Sigma, \forall t\in T
+$$
+*Figure 10 (again)*
+
+Tying this all together, our random variable allows us to go from the original probability space, to a new one. That new probability space is “induced” by our random variable. Right now, everything is abstract (all the symbols we’ve been using). We can make things concrete with our dice roll experiment.
+
+## Making Things Concrete
+
