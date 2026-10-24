@@ -157,3 +157,8 @@ $$
 $$
 *figure 10.4*
 
+One thing to note about measurable functions here, we need the attached sigma algebras for the measurable functions to make sense. Since the sigma algebras are inherently tied to the measurable function, we include those in our notation. Using the same symbols as our formal definition in Figure 10, we would notate our measurable function as:
+$$
+f:(X,\Sigma)\rightarrow(Y,T)
+$$
+*figure 11*
