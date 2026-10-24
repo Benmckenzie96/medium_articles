@@ -182,3 +182,13 @@ $$
 \end{aligned}
 $$
 *figure 14*
+
+**Here is where some care is needed.** Let’s start with the formal definition of a random variable (don’t worry, the point of this section is to demystify this):
+
+$$
+\begin{aligned}
+&\text{Let }(\Omega, \mathcal{F}, \mathcal{P})\text{ be a probability space and }(E,\mathcal{E})\text{ a measurable space. Then, an}\\
+&(E,\mathcal{E})-\textbf{valued random variable }\text{ is a measurable function }X:(\Omega,\mathcal{F})\rightarrow(E,\mathcal{E})
+\end{aligned}
+$$
+*Figure 15*
