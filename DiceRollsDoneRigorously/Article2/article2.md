@@ -110,11 +110,6 @@ f^{-1}[{2}]=\emptyset
 $$
 
 ## Measurable Functions
-plan:
-- formal definition
-- relate the example in figure 9 to measurable spaces in which both have sigma algebra equal to the powerset
-- make a note that for a normal function we just have f:x->y, whereas measurable functions are directly defined using sigma algebras, so we have domain and codomains as measurable spaces.
-- pivot from writing to creating the digital version of that measurable function visualization I have(in notebook paper in my backpack)
 
 This section will cover what a measurable function is. We will start with the formal definition of measurable function and break it down.
 
@@ -162,3 +157,4 @@ $$
 f:(X,\Sigma)\rightarrow(Y,T)
 $$
 *figure 11*
+## Measurable Functions (Visually)
