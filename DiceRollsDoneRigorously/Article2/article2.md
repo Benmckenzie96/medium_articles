@@ -158,3 +158,9 @@ f:(X,\Sigma)\rightarrow(Y,T)
 $$
 *figure 11*
 ## Measurable Functions (Visually)
+The following image provides a visualization of a measurable function:
+
+![alt text](Images/measurable_function/measurable_function_vis.png)
+*Figure 12*
+
+In this image we have the components of a measurable function. In white, we have our sigma algebras, the function between the two, and our preimage direction. The blue circles represent some part of our base sets. The red circles are the specific sets we are current mapping. The green dots are points in the sets we are currently mapping, and the orange dots simply represent points in our base sets. Finally, in red text we have the mathematical symbols for our image and preimage.
