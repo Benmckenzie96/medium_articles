@@ -48,7 +48,7 @@ $$
 We can define our range as:
 $$
 \begin{aligned}
-R(X)&:=\{X(\omega),\ \forall\omega\in\Omega\}\\
+R(X)&:=\{X(\omega):\omega\in\Omega\}\\
 R(X)&=\{2,3,4,5,6,7,8,9,10,11,12\}\\
 &\text{Note that } R(X)\subseteq \mathbb{N}
 \end{aligned}
@@ -71,7 +71,7 @@ To move forward with this process, we need to learn about measurable functions. 
 First, we need to define a concept known as the “preimage” of a set given a function:
 $$
 \text{Let } f:X\rightarrow Y \text{ be a function from the set }X \text{ to the set }Y.\\ \text{ The preimage of a subset of }Y,B\subseteq Y, \text{ is the set: }\\
-f^{-1}[B]=\{x\in X:f(x)\in Y\}
+f^{-1}[B]=\{x\in X:f(x)\in B\}
 $$
 *figure 7*
 
@@ -218,7 +218,7 @@ Tying this all together, our random variable allows us to go from the original p
 
 Let's tie this back to our example. We roll two dice, making our sample space:
 $$
-\Omega=\{(i,j)\in\{1,2,3,4,5,6\}\}
+\Omega=\{(i,j):i,j\in\{1,2,3,4,5,6\}\}
 $$
 *Figure 17*
 
@@ -275,7 +275,7 @@ We have all the pieces we need now. Let's just put these lego blocks together!
 The domain of our random variable:
 $$
 \begin{aligned}
-&\Omega=\{(i,j)\in\{1,2,3,4,5,6\}\}\text{ (our sample space)}\\
+&\Omega=\{(i,j):i,j\in\{1,2,3,4,5,6\}\}\text{ (our sample space)}\\
 &\mathcal{F}=2^\Omega\text{ (our sigma algebra/event space)}\\
 &(\Omega,\mathcal{F})\text{ (our measurable space)}
 \end{aligned}
