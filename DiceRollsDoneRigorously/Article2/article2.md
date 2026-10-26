@@ -232,3 +232,8 @@ This makes the domain of our random variable:
 $$
 (\Omega,\mathcal{F})
 $$
+
+Recall that we have three components in a "normal" function: the domain, the codomain, and the rule. Let's define each for the random variable specific to our dice roll experiment:
+- Domain: the domain of our (nonmeasurable) function has been stated, it is the sample space, $\Omega$
+- Rule: the rule here is we add the resulting values of two dice rolls. In mathematical symbols we can state our rule as $X((i,j))=i+j$
+- Codomain: we can choose any set that is big enough, but an intuitive choice ends up being the natural numbers, since we only have positive whole numbers on the faces of the two dice, and we are simply adding them. That makes our codomain $\mathbb{N}$
