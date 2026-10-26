@@ -214,7 +214,7 @@ $$
 
 Tying this all together, our random variable allows us to go from the original probability space, to a new one. That new probability space is “induced” by our random variable. Right now, everything is abstract (all the symbols we’ve been using). We can make things concrete with our dice roll experiment.
 
-## Making Things Concrete
+## Making Things Concrete (Our Random Variable)
 
 Let's tie this back to our example. We roll two dice, making our sample space:
 $$
@@ -237,3 +237,11 @@ Recall that we have three components in a "normal" function: the domain, the cod
 - Domain: the domain of our (nonmeasurable) function has been stated, it is the sample space, $\Omega$
 - Rule: the rule here is we add the resulting values of two dice rolls. In mathematical symbols we can state our rule as $X((i,j))=i+j$
 - Codomain: we can choose any set that is big enough, but an intuitive choice ends up being the natural numbers, since we only have positive whole numbers on the faces of the two dice, and we are simply adding them. That makes our codomain $\mathbb{N}$
+
+With the points above, we can state the underlying "normal" function that our random variable will be built from as:
+$$
+X:\Omega\rightarrow\mathbb{N},\ X((i,j)\in\Omega)=i+j
+$$
+*Figure 19*
+
+The final step in constructing our random variable is to make our "normal" function measurable. *We hit a bit of a snag here though.* In the section, **Picking up: Making a Function Explicit**
