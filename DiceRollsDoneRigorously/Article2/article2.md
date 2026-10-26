@@ -65,7 +65,7 @@ with the range of our function described in figure 5.
 
 That was quite a bit for the start of an article! But, defining these things rigidly will help in the following sections, and allow us to gain a deep understanding of what a random variable is.
 ## Preimages
-To move forward with this process, we need to learn about measurable functions. At a high level, a measurable function is simple: *a measurable function from one measurable space to another measurable space that preserves the structures of the two spaces.* This definition is incomplete, and not very helpful for understanding measurable functions. We need to dig deeper.
+To move forward with this process, we need to learn about measurable functions. At a high level, a measurable function is simple: *a measurable function is a function from one measurable space to another measurable space that preserves the structures of the two spaces.* This definition is incomplete, and not very helpful for understanding measurable functions. We need to dig deeper.
 
 
 First, we need to define a concept known as the “preimage” of a set given a function:
@@ -86,11 +86,11 @@ $$
 We can compute some preimages as follows:
 $$
 \begin{aligned}
-A=&\{4, 9\}\subseteq\mathbb{Z}.\ f^-1[A]=\{x\in\mathbb{Z}:f(x)\in A\}\\
+A=&\{4, 9\}\subseteq\mathbb{Z}.\ f^{-1}[A]=\{x\in\mathbb{Z}:f(x)\in A\}\\
 &\text{so } f^{-1}[A]=\{-2, 2, -3, 3\}\\
 B=&\{25\}\subseteq \mathbb{Z}.\ f^{-1}[B]=\{x\in \mathbb{Z}:f(x)\in B\}\\
 &\text{so } f^{-1}[B]=\{-5, 5\}\\
-C=&\{2, 16\}.\  f^-1[C]=\{x\in \mathbb{Z}:f(x)\in C\}\\
+C=&\{2, 16\}.\  f^{-1}[C]=\{x\in \mathbb{Z}:f(x)\in C\}\\
 &\text{so }f^{-1}[C] = \{-4,4\}
 \end{aligned}
 $$
@@ -116,7 +116,7 @@ This section will cover what a measurable function is. We will start with the fo
 $$
 \text{Formally, we define a measurable function as follows: let } (X,\Sigma)\text{ and } (Y,T)\text{ be two measurable}\\
 \text{spaces. A function, }f:X\rightarrow Y\text{ is said to be measurable if for every element of the sigma}\\
-\text{algebra }T\text{, the preimage of that element under }f\text{ is contained in the sigma algebra }\Sigma.\\
+\text{algebra }T\text{, the preimage of that element under }f\text{ is an element of the sigma algebra }\Sigma.\\
 \text{i.e. }f^{-1}[t]\in\Sigma, \forall t\in T
 $$
 *figure 10*
@@ -193,11 +193,11 @@ $$
 $$
 *Figure 15*
 
-First off, pat yourself on the back for getting this far! We already know what a measurable function is, so we can check that box. The next question is what the *measurable spaces* of both the domain and range are. We already have the domain covered from the first article in this series: *the domain of the random variable is the measurable space of our probability tuple.* All we need to do is drop our probability measure (for now), making a *measurable space*, and we have that covered. **So what is the range?**
+First off, pat yourself on the back for getting this far! We already know what a measurable function is, so we can check that box. The next question is what the *measurable spaces* of both the domain and codomain are. We already have the domain covered from the first article in this series: *the domain of the random variable is the measurable space of our probability tuple.* All we need to do is drop our probability measure (for now), making a *measurable space*, and we have that covered. **So what is the codomain?**
 
-The range of a random variable, in general, has two requirements:
+The codomain of a random variable, in general, has two requirements:
 
-1. The range of our random variable needs to be a *measurable space*. This requirement, on it’s own, is pretty easy to understand given what we learned from the previous article in this series: *a measurable space is a set, together with a sigma algebra.* If we examine the definition of random variables given in figure 15, the measurable space our random variable’s range has is:
+1. The codomain of our random variable needs to be a *measurable space*. This requirement, on it’s own, is pretty easy to understand given what we learned from the previous article in this series: *a measurable space is a set, together with a sigma algebra.* If we examine the definition of random variables given in figure 15, the measurable space our random variable’s codomain has is:
 $$
 (E,\mathcal{E})
 $$
