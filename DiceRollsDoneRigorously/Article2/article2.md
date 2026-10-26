@@ -214,7 +214,7 @@ $$
 
 Tying this all together, our random variable allows us to go from the original probability space, to a new one. That new probability space is “induced” by our random variable. Right now, everything is abstract (all the symbols we’ve been using). We can make things concrete with our dice roll experiment.
 
-## Making Things Concrete (Our Random Variable)
+## Making Our Random Variable Concrete (First Try)
 
 Let's tie this back to our example. We roll two dice, making our sample space:
 $$
@@ -268,3 +268,29 @@ A function, $f:X\rightarrow Y$, is measurable with respect to a sigma algebra, $
 *Figure 21*
 
 We are so close to being done! Hang in there, we only have one more section, and in this last section we get to apply everything we have learned in this article and the last. 
+
+## Making Our Random Variable Concrete (actually though this time)
+We have all the pieces we need now. Let's just put these lego blocks together!
+
+The domain of our random variable:
+$$
+\begin{aligned}
+&\Omega=\{(i,j)\in\{1,2,3,4,5,6\}\}\text{ (our sample space)}\\
+&\mathcal{F}=2^\Omega\text{ (our sigma algebra/event space)}\\
+&(\Omega,\mathcal{F})\text{ (our measurable space)}
+\end{aligned}
+$$
+*Figure 22.1*
+
+Our underlying (currently non measurable) function:
+$$
+X:\Omega\rightarrow\mathbb{N},\ X((i,j)\in\Omega)=i+j
+$$
+*figure 22.2 (also figure 19, I just copied it)*
+
+Our "big" sigma algebra for the range that we will carve out of:
+$$
+2^\mathbb{N}\ (\text{ just the powerset on }\mathbb{N})
+$$
+*figure 22.3*
+
