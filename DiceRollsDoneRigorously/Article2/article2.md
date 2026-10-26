@@ -106,7 +106,7 @@ $$
 $$
 That is why we don't include it in our preimage. Another way to look at this is:
 $$
-f^{-1}[{2}]=\emptyset
+f^{-1}[\{2\}]=\emptyset
 $$
 
 ## Measurable Functions
@@ -216,3 +216,19 @@ Tying this all together, our random variable allows us to go from the original p
 
 ## Making Things Concrete
 
+Let's tie this back to our example. We roll two dice, making our sample space:
+$$
+\Omega=\{(i,j)\in\{1,2,3,4,5,6\}\}
+$$
+*Figure 17*
+
+We create the event space (which is also a sigma algebra) using the powerset operation:
+$$
+\mathcal{F}=2^\Omega
+$$
+*Figure 18*
+
+This makes the domain of our random variable:
+$$
+(\Omega,\mathcal{F})
+$$
