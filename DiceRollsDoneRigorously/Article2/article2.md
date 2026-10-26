@@ -139,7 +139,7 @@ The next part of the definition reads:
 $$
 ``\text{if for every element of the sigma}
 \text{ algebra }T\text{, the preimage of that}\\
-\text{element under }f\text{ is contained in the sigma algebra }\Sigma."
+\text{element under }f\text{ is an element of the sigma algebra }\Sigma."
 $$
 *figure 10.3*
 
@@ -207,7 +207,7 @@ $$
 $$
 \text{Formally, we define a measurable function as follows: let } (X,\Sigma)\text{ and } (Y,T)\text{ be two measurable}\\
 \text{spaces. A function, }f:X\rightarrow Y\text{ is said to be measurable if for every element of the sigma}\\
-\text{algebra }T\text{, the preimage of that element under }f\text{ is contained in the sigma algebra }\Sigma.\\
+\text{algebra }T\text{, the preimage of that element under }f\text{ is an element of the sigma algebra }\Sigma.\\
 \text{i.e. }f^{-1}[t]\in\Sigma, \forall t\in T
 $$
 *Figure 10 (again)*
@@ -294,7 +294,7 @@ $$
 $$
 *figure 22.3*
 
-**A random fun fact that is completely irrelevant, but I needed a brain break and I think trees are cool**: "The Pando 'aspen forest' in Utah is a single clonal organism made up of tens of thousands of stems, making it the largest tree in the U.S. by landmass and weight" It's just one giant tree, for real. There are other clonal trees in the world as well.
+**A random fun fact that is completely irrelevant, but I needed a brain break and I think trees are cool**: "The Pando 'aspen forest' in Utah is a single clonal organism made up of tens of thousands of stems, making it the most massive tree in the U.S. by landmass and weight" It's just one giant tree, for real. There are other clonal trees in the world as well.
 
 **Back to the maths**, generating a sigma algebra with our function:
 $$
