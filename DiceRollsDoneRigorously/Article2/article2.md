@@ -251,4 +251,48 @@ $$
 *Figure 20*
 
 ### Verifying our Random Variable is Measurable
-All that's left is to verify that the condition for a measurable function holds. We require that the preimage of every element of our codomain's sigma algebra is an element of our domain's sigma algebra. Our choice of dice rolling comes in handy here. We can use a direct proof. F
+All that's left is to verify that the condition for a measurable function holds. We require that the preimage of every element of our codomain's sigma algebra is an element of our domain's sigma algebra. Our choice of dice rolling comes in handy here. We can use a direct proof.
+
+First, we list our sample space out:
+
+$$
+\begin{array}{c|cccccc}
+ & \mathbf{1} & \mathbf{2} & \mathbf{3} & \mathbf{4} & \mathbf{5} & \mathbf{6} \\
+\hline
+\mathbf{1} & (1,1) & (1,2) & (1,3) & (1,4) & (1,5) & (1,6) \\
+\mathbf{2} & (2,1) & (2,2) & (2,3) & (2,4) & (2,5) & (2,6) \\
+\mathbf{3} & (3,1) & (3,2) & (3,3) & (3,4) & (3,5) & (3,6) \\
+\mathbf{4} & (4,1) & (4,2) & (4,3) & (4,4) & (4,5) & (4,6) \\
+\mathbf{5} & (5,1) & (5,2) & (5,3) & (5,4) & (5,5) & (5,6) \\
+\mathbf{6} & (6,1) & (6,2) & (6,3) & (6,4) & (6,5) & (6,6) \\
+\end{array}
+$$
+*figure 21*
+
+Next, we need to consider the codomain of our random variable. We have the natural numbers as our underlying set, and the powerset as our sigma algebra. Since it would be impossible to list out the sigma algebra of the codomain (there are an infinite number of natural numbers), we need to be a little clever. In the context of our experiment, a natural number falls into two and only two categories: it is either a valid sum of two six sided dice results being added together, or it is not. To keep track of this, we can construct the set of valid sums natural numbers as:
+$$
+S=\{i+j:i,j\in\{1,2,3,4,5,6\}\}=\{2,3,4,\dots,12\}
+$$
+*Figure 22*
+
+Now we're talking! Figure 22 brings the natural numbers we care about from inifinity to 12 (not bad). But we care about *sets* of natural numbers since we are concerned with our codomain's sigma algebra. We can't list out all of these sets since we have an even bigger count than the count of natural numbers (infinity is weird like that). Instead, we can use the fact that a natural number either is or is not a sum of two dice rolls. To keep track of this, let's create these two categories of natural numbers:
+$$
+\begin{aligned}
+n_{n\in S}\text{ (a natural number that IS a dice sum)}\\
+n_{n\notin S}\text{ (a natural number that is NOT a dice sum)}
+\end{aligned}
+$$
+*figure 23*
+
+Given the observation above, we know any set of natural numbers can be labeled element wise in terms of which are valid sums of two dice, and those that are not. This will be invaluable shortly. (Assuming you like math, otherwise props to you for reading this far and not even liking math, I appreciate the open mindedness).
+
+Moving on, keep this fact in mind: *sets are comprised of unique elements*. If it helps, think of the statement, "this is a set" as a magical wand that automatically removes duplicate elements. Got it? (I bet you do).
+
+So here is a minor quiz (it's not graded don't worry). This will help in the next point. What are the preimages of the following sets of natural numbers? (hint: we are going to use a fact from sigma algebras in the first article)
+$$
+\begin{aligned}
+A = \{1\}
+B = \{2,3\}
+
+\end{aligned}
+$$
