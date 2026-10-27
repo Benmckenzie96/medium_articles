@@ -214,7 +214,7 @@ $$
 
 Tying this all together, our random variable allows us to go from the original probability space, to a new one. That new probability space is “induced” by our random variable. Right now, everything is abstract (all the symbols we’ve been using). We can make things concrete with our dice roll experiment.
 
-## Making Our Random Variable Concrete (First Try)
+## Making Our Random Variable Concrete
 
 Let's tie this back to our example. We roll two dice, making our sample space:
 $$
@@ -249,3 +249,6 @@ $$
 (\mathbb{N}, 2^\mathbb{N})
 $$
 *Figure 20*
+
+### Verifying our Random Variable is Measurable
+All that's left is to verify that the condition for a measurable function holds. We require that the preimage of every element of our codomain's sigma algebra is an element of our domain's sigma algebra. Our choice of dice rolling comes in handy here. We can use a direct proof. F
