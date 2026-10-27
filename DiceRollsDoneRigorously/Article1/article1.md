@@ -54,9 +54,9 @@ $$
 How we decide to define this event space has some flexibility, but there is a rule that must followed: the event space MUST be a sigma algebra on our sample space. But wait, what is a sigma algebra?
 
 Let $X$ be some set, let $2^X$ be the power set of $X$. A subset of this power set, $\Sigma \subseteq 2^X$ is called a $\sigma$-algebra if the following three conditions hold:
-	- $X\in \Sigma$
-	- $\Sigma$ is closed under complementation. i.e. if $A\in \Sigma$ then $A^c\in \Sigma$ .
-	- $\Sigma$ is closed under countable union: if $A_1, A_2, A_3\dots \in \Sigma$ then $A_1\cup A_2\cup A_3\cup\dots \in \Sigma$
+- $X\in \Sigma$
+- $\Sigma$ is closed under complementation. i.e. if $A\in \Sigma$ then $A^c\in \Sigma$ .
+- $\Sigma$ is closed under countable union: if $A_1, A_2, A_3\dots \in \Sigma$ then $A_1\cup A_2\cup A_3\cup\dots \in \Sigma$
 
 *Figure 6*
 
