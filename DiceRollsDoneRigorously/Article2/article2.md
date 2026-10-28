@@ -163,7 +163,7 @@ The following image provides a visualization of a measurable function:
 ![alt text](Images/measurable_function/measurable_function_vis.png)
 *Figure 12*
 
-In this image we have the components of a measurable function. In white, we have our sigma algebras, the function between the two, and our preimage direction. The blue circles represent some part of our base sets. The red circles are the specific sets we are current mapping. The green dots are points in the sets we are currently mapping, and the orange dots simply represent points in our base sets. Finally, in red text we have the mathematical symbols for our image and preimage.
+In this image we have the components of a measurable function. In white, we have our sigma algebras, the function between the two, and our preimage direction. The blue circles represent some part of our base sets. The red circles are the specific sets we are currently mapping. The green dots are points in the sets we are currently mapping, and the orange dots simply represent points in our base sets. Finally, in red text we have the mathematical symbols for our image and preimage.
 ## The Random Variable
 The reason we have gone through so much effort to define sigma algebras, probability spaces, and now measurable functions is to make the concept of the random variable easier to understand.
 
@@ -197,7 +197,7 @@ First off, pat yourself on the back for getting this far! We already know what a
 
 The codomain of a random variable, in general, has two requirements:
 
-1. The codomain of our random variable needs to be a *measurable space*. This requirement, on it’s own, is pretty easy to understand given what we learned from the previous article in this series: *a measurable space is a set, together with a sigma algebra.* If we examine the definition of random variables given in figure 15, the measurable space our random variable’s codomain has is:
+1. The codomain of our random variable needs to be a *measurable space*. This requirement, on its own, is pretty easy to understand given what we learned from the previous article in this series: *a measurable space is a set, together with a sigma algebra.* If we examine the definition of random variables given in figure 15, the measurable space our random variable’s codomain has is:
 $$
 (E,\mathcal{E})
 $$
