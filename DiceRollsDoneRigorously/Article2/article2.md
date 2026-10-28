@@ -327,4 +327,20 @@ $$
 
 For each singleton of form number 1, we simply compute the preimage by listing the dice rolls that equal that number, this is done in the same manner as our quiz question. For each singleton of form 2, we simply state the preimage as the empty set. 
 
-Finally, we rely on the fact that the domain sigma algebra (our event space) is closed under countable union, contains the entire sample space, and contains the empty set. With these facts, we simply union the preimages we compute, and we have the guaruntee that the resulting union is an element of our event space. 
+We are almost done! We rely on the fact that the domain sigma algebra (our event space) is closed under countable union, contains the entire sample space, and contains the empty set. This means that any singleton of a natural number (or the empty set) has its preimage in the event space. The last step is to show that the union of the singleton preimages is equal to the preimage of the original codomain element. This follows directly from the definition of preimage in figure 7 and our underlying function, figure 19 (pasted here so we don't have to scroll all the way up):
+$$
+\text{Let } f:X\rightarrow Y \text{ be a function from the set }X \text{ to the set }Y.\\ \text{ The preimage of a subset of }Y,B\subseteq Y, \text{ is the set: }\\
+f^{-1}[B]=\{x\in X:f(x)\in B\}
+$$
+*figure 7*
+
+$$
+X:\Omega\rightarrow\mathbb{N},\ X((i,j)\in\Omega)=i+j
+$$
+*figures 19*
+
+With these two in hand we can do some symbol swapping to make the relation apparent:
+$$
+\begin{aligned}
+\end{aligned}
+$$
