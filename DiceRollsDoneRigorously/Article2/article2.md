@@ -250,10 +250,34 @@ $$
 $$
 *Figure 20*
 
-### Verifying our Random Variable is Measurable
-All that's left is to verify that the condition for a measurable function holds. We require that the preimage of every element of our codomain's sigma algebra is an element of our domain's sigma algebra. Our choice of dice rolling comes in handy here. We can use a direct proof.
+This makes the formal definition of our random variable:
+$$
+X:(\Omega,\mathcal{F})\rightarrow(\mathbb{N}, 2^\mathbb{N}),\ X((i,j)\in\Omega)=i+j
+$$
+*Figure 21*
 
-First, we list our sample space out:
+But we require measurablility!  Fortunately, the proof that our proposed random variable in figure 21 is in fact a measurable funciton is straightforward.
+
+### Proof of Measurablility
+To show that our random variable is measurable, we use the following proof:
+$$
+\begin{aligned}
+&\text{Claim: }X:(\Omega,\mathcal{F})\rightarrow(\mathbb{N}, 2^\mathbb{N}),\ X((i,j)\in\Omega)=i+j\text{ is a measurable function}\\
+\text{Proof:}\\
+1.\ &\text{Let }B\in2^\mathbb{N}\text{ be arbitrary. By figure 7, }X^{-1}[B]=\{\omega\in\Omega:X(\omega)\in B\}\\
+2.\ &\text{Trivially, every element of the set constructed in 1 is an element of }\Omega\\
+3.\ &\text{Via 1 and 2 we have }X^{-1}[B]\subseteq\Omega\\
+4.\ &\text{Since }\mathcal{F}=2^\Omega\text{ and via 3 we know }X^{-1}[B]\subseteq\Omega\text{, we also know }X^{-1}[B]\in\mathcal{F}\\
+5.\ &\text{Finally, since our choice of }B\text{ was arbitrary, we know that every element}\\
+&\text{of }2^\mathbb{N}\text{ has its preimage in }\mathcal{F}\text{. This is exactly the condition we need to}\\
+&\text{satisfy for measurablility, therefore our random variable is measurable}
+\end{aligned}
+$$
+
+*Figure 22*
+
+### Example to Help
+The following might help solidify these concepts. First, let's list our sample space out:
 
 $$
 \begin{array}{c|cccccc}
@@ -267,28 +291,9 @@ $$
 \mathbf{6} & (6,1) & (6,2) & (6,3) & (6,4) & (6,5) & (6,6) \\
 \end{array}
 $$
-*figure 21*
-
-Next, we need to consider the codomain of our random variable. We have the natural numbers as our underlying set, and the powerset as our sigma algebra. Since it would be impossible to list out the sigma algebra of the codomain (there are an infinite number of natural numbers), we need to be a little clever. In the context of our experiment, a natural number falls into two and only two categories: it is either a valid sum of two six sided dice results being added together, or it is not. To keep track of this, we can construct the set of valid sums natural numbers as:
-$$
-S=\{i+j:i,j\in\{1,2,3,4,5,6\}\}=\{2,3,4,\dots,12\}
-$$
-*Figure 22*
-
-Now we're talking! Figure 22 brings the natural numbers we care about from inifinity to 11 (not bad). But we care about *sets* of natural numbers since we are concerned with our codomain's sigma algebra. We can't list out all of these sets since we have an even bigger count than the count of natural numbers (infinity is weird like that). Instead, we can use the fact that a natural number either is or is not a sum of two dice rolls. To keep track of this, let's create these two categories of natural numbers:
-$$
-\begin{aligned}
-n_{n\in S}\text{ (a natural number that IS a dice sum)}\\
-n_{n\notin S}\text{ (a natural number that is NOT a dice sum)}
-\end{aligned}
-$$
 *figure 23*
 
-Given the observation above, we know any set of natural numbers can be labeled element wise in terms of which are valid sums of two dice, and those that are not. This will be invaluable shortly. (Assuming you like math, otherwise props to you for reading this far and not even liking math, I appreciate the open mindedness).
-
-Moving on, keep this fact in mind: *sets are comprised of unique elements*. If it helps, think of the statement, "this is a set" as a magical wand that automatically removes duplicate elements. Got it? (I bet you do).
-
-So here is a minor quiz (it's not graded don't worry). This will help in the following points. What are the preimages of the following sets of natural numbers? *(hint: look at the definition of sigma algebra from the first article, figure 6)*
+Next, here is a minor quiz (it's not graded don't worry). This will help us understand what is happening here. What are the preimages of the following sets of natural numbers? 
 $$
 \begin{aligned}
 &A = \{1\}\\
@@ -310,50 +315,3 @@ $$
 $$
 *Figure 25*
 
-This example helps us see that for any natural number, the corresponding element(s) in the preimage will either be all the dice rolls that sum to said number or the empty set. Here's where our trick comes into play.
-
-First, recall that a sigma algebra is closed under countable union, and since we are using the powerset as our sigma algebra, we have every singleton set contained in the sigma algebra
-
-Next, note that any set of natural numbers can be decomposed into it's underlying singleton elements
-
-Next, we use our defintions from figure 23. Take any arbitrary set of natural numbers (i.e. any arbitrary element of the codomain sigma algebra). If the element selected is the empty set, that just means the preimage is also the empty set. Otherwise the set (element) can be decomposed into singletons. We know from figure 23 that each singleton will be one of the two forms:
-$$
-\begin{aligned}
-1.\ \{n_{n\in S}\}\\
-2.\ \{n_{n\notin S}\}
-\end{aligned}
-$$
-*figure 26*
-
-For each singleton of form number 1, we simply compute the preimage by listing the dice rolls that equal that number, this is done in the same manner as our quiz question. For each singleton of form 2, we simply state the preimage as the empty set. 
-
-We are almost done! We rely on the fact that the domain sigma algebra (our event space) is closed under countable union, contains the entire sample space, and contains the empty set. This means that any singleton of a natural number (or the empty set) has its preimage in the event space. The last step is to show that the union of the singleton preimages is equal to the preimage of the original codomain element. This follows directly from the definition of preimage in figure 7 and our underlying function, figure 19 (pasted here so we don't have to scroll all the way up):
-$$
-\text{Let } f:X\rightarrow Y \text{ be a function from the set }X \text{ to the set }Y.\\ \text{ The preimage of a subset of }Y,B\subseteq Y, \text{ is the set: }\\
-f^{-1}[B]=\{x\in X:f(x)\in B\}
-$$
-*figure 7*
-
-$$
-X:\Omega\rightarrow\mathbb{N},\ X((i,j)\in\Omega)=i+j
-$$
-*figures 19*
-
-The proof takes the following steps:
-$$
-\begin{aligned}
-1.\ &\text{restate the final line of our preimage defintion using our symbols for}\\
-&\text{our event space, codomain, and random variable:}\\
-&X^{-1}[B\in 2^\mathbb{N}]=\{\omega\in\Omega:X(\omega)\in B\}\\
-&\text{Note we haven't done anything here other than use our symbols rather than}\\
-&\text{preimage defintion symbols.}\\
-2.\ &\text{Next, note the fact that }\omega\in X^{-1}[B]\iff X(\omega)\in B\\
-3.\ &\text{We know that }B\text{ is a set of natural numbers, so we have:}\\
-&X(\omega)\in B\iff X(\omega)=n\text{ for some }n\in B\\
-4.\ &\text{From 2 and 3 we also know that }
-\end{aligned}
-$$
-
-To show that our random variable is measurable, we use the following proof:
-$$
-$$
