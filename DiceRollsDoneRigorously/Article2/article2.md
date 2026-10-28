@@ -315,3 +315,4 @@ $$
 $$
 *Figure 25*
 
+Notice for an empty set from our codomain sigma algebra, the preimage is simply the empty set. For a natural number that is a valid sum of two dice, we have every combination of rolls from our sample space which sums to that natural number, and if we have multiple valid natural numbers we simply include all those dice rolls in the preimage. Finally, notice that if we have a set of natural numbers with a mix of valid and invalid, we only have to care about the valid sum numbers since those that are invalid lead to the empty set as their preimage.
