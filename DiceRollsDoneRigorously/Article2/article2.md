@@ -342,5 +342,13 @@ $$
 With these two in hand we can do some symbol swapping to make the relation apparent:
 $$
 \begin{aligned}
+1.\ &\text{restate the final line of our preimage defintion using our symbols for}\\
+&\text{our event space, codomain, and random variable:}\\
+&X^{-1}[B\in 2^\mathbb{N}]=\{\omega\in\Omega:X(\omega)\in B\}\\
+2.\ &\text{note the equivalency of a set, and the union of all its elements as singletons:}\\
+&\{n_1\}\cup\{n_2\}\cup\dots\{n_k\}=\{n_1, n_2,\dots n_k\}\\
+3.\ &\text{note that if }X(\omega)=n\in B\text{ then } X^{-1}[\{n\}]=e\in\mathcal{F}\text{ an event from our event space}\\
+4.\ &\text{Using fact 2, we union all of the events from point 3 to get our preimage}\\ 
+&\text{of the entire set, }B
 \end{aligned}
 $$
