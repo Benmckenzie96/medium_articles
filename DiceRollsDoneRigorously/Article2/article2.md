@@ -275,7 +275,7 @@ S=\{i+j:i,j\in\{1,2,3,4,5,6\}\}=\{2,3,4,\dots,12\}
 $$
 *Figure 22*
 
-Now we're talking! Figure 22 brings the natural numbers we care about from inifinity to 12 (not bad). But we care about *sets* of natural numbers since we are concerned with our codomain's sigma algebra. We can't list out all of these sets since we have an even bigger count than the count of natural numbers (infinity is weird like that). Instead, we can use the fact that a natural number either is or is not a sum of two dice rolls. To keep track of this, let's create these two categories of natural numbers:
+Now we're talking! Figure 22 brings the natural numbers we care about from inifinity to 11 (not bad). But we care about *sets* of natural numbers since we are concerned with our codomain's sigma algebra. We can't list out all of these sets since we have an even bigger count than the count of natural numbers (infinity is weird like that). Instead, we can use the fact that a natural number either is or is not a sum of two dice rolls. To keep track of this, let's create these two categories of natural numbers:
 $$
 \begin{aligned}
 n_{n\in S}\text{ (a natural number that IS a dice sum)}\\
@@ -302,10 +302,10 @@ $$
 Are you ready? And the answer is.... **Pando** Wait no sorry that's the largest living organism by mass in the US (he's a massive clonal tree, basically a single tree that is also a forest) The *actual* answer is:
 $$
 \begin{aligned}
-&X^{-1}[A]=\{\emptyset\}\\
+&X^{-1}[A]=\emptyset\\
 &X^{-1}[B]=\{(1,1),(1,2),(2,1)\}\\
-&X^{-1}[C]=\{\emptyset\}\\
-&X^{-1}[D]=\{(1,3),(2,2),(3,1),\emptyset\}
+&X^{-1}[C]=\emptyset\\
+&X^{-1}[D]=\{(1,3),(2,2),(3,1)\}
 \end{aligned}
 $$
 *Figure 25*
@@ -316,4 +316,15 @@ First, recall that a sigma algebra is closed under countable union, and since we
 
 Next, note that any set of natural numbers can be decomposed into it's underlying singleton elements
 
-Next, we use our defintions from figure 23. Take any arbitrary set of natural numbers (i.e. any arbitrary element of the codomain sigma algebra). If the element selected is the empty set, that just means the preimage is 
+Next, we use our defintions from figure 23. Take any arbitrary set of natural numbers (i.e. any arbitrary element of the codomain sigma algebra). If the element selected is the empty set, that just means the preimage is also the empty set. Otherwise the set (element) can be decomposed into singletons. We know from figure 23 that each singleton will be one of the two forms:
+$$
+\begin{aligned}
+1.\ \{n_{n\in S}\}\\
+2.\ \{n_{n\notin S}\}
+\end{aligned}
+$$
+*figure 26*
+
+For each singleton of form number 1, we simply compute the preimage by listing the dice rolls that equal that number, this is done in the same manner as our quiz question. For each singleton of form 2, we simply state the preimage as the empty set. 
+
+Finally, we rely on the fact that the domain sigma algebra (our event space) is closed under countable union, contains the entire sample space, and contains the empty set. With these facts, we simply union the preimages we compute, and we have the guaruntee that the resulting union is an element of our event space. 
