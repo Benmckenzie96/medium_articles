@@ -288,11 +288,13 @@ Given the observation above, we know any set of natural numbers can be labeled e
 
 Moving on, keep this fact in mind: *sets are comprised of unique elements*. If it helps, think of the statement, "this is a set" as a magical wand that automatically removes duplicate elements. Got it? (I bet you do).
 
-So here is a minor quiz (it's not graded don't worry). This will help in the next point. What are the preimages of the following sets of natural numbers? (hint: we are going to use a fact from sigma algebras in the first article)
+So here is a minor quiz (it's not graded don't worry). This will help in the next point. What are the preimages of the following sets of natural numbers? (hint: we are going to use a fact from sigma algebras in the first article, figure 6)
 $$
 \begin{aligned}
-A = \{1\}
-B = \{2,3\}
+&A = \{1\}\\
+&B = \{2,3\}\\
+&C = \{\}\\
+&D = \{4, 452\}
 
 \end{aligned}
 $$
