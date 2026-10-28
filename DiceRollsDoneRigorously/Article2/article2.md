@@ -256,9 +256,9 @@ X:(\Omega,\mathcal{F})\rightarrow(\mathbb{N}, 2^\mathbb{N}),\ X((i,j)\in\Omega)=
 $$
 *Figure 21*
 
-But we require measurablility!  Fortunately, the proof that our proposed random variable in figure 21 is in fact a measurable funciton is straightforward.
+But we require measurability!  Fortunately, the proof that our proposed random variable in figure 21 is in fact a measurable funciton is straightforward.
 
-### Proof of Measurablility
+### Proof of Measurability
 To show that our random variable is measurable, we use the following proof:
 $$
 \begin{aligned}
@@ -270,7 +270,7 @@ $$
 4.\ &\text{Since }\mathcal{F}=2^\Omega\text{ and via 3 we know }X^{-1}[B]\subseteq\Omega\text{, we also know }X^{-1}[B]\in\mathcal{F}\\
 5.\ &\text{Finally, since our choice of }B\text{ was arbitrary, we know that every element}\\
 &\text{of }2^\mathbb{N}\text{ has its preimage in }\mathcal{F}\text{. This is exactly the condition we need to}\\
-&\text{satisfy for measurablility, therefore our random variable is measurable}
+&\text{satisfy for measurability, therefore our random variable is measurable}
 \end{aligned}
 $$
 
