@@ -339,16 +339,21 @@ X:\Omega\rightarrow\mathbb{N},\ X((i,j)\in\Omega)=i+j
 $$
 *figures 19*
 
-With these two in hand we can do some symbol swapping to make the relation apparent:
+The proof takes the following steps:
 $$
 \begin{aligned}
 1.\ &\text{restate the final line of our preimage defintion using our symbols for}\\
 &\text{our event space, codomain, and random variable:}\\
 &X^{-1}[B\in 2^\mathbb{N}]=\{\omega\in\Omega:X(\omega)\in B\}\\
-2.\ &\text{note the equivalency of a set, and the union of all its elements as singletons:}\\
-&\{n_1\}\cup\{n_2\}\cup\dots\{n_k\}=\{n_1, n_2,\dots n_k\}\\
-3.\ &\text{note that if }X(\omega)=n\in B\text{ then } X^{-1}[\{n\}]=e\in\mathcal{F}\text{ an event from our event space}\\
-4.\ &\text{Using fact 2, we union all of the events from point 3 to get our preimage}\\ 
-&\text{of the entire set, }B
+&\text{Note we haven't done anything here other than use our symbols rather than}\\
+&\text{preimage defintion symbols.}\\
+2.\ &\text{Next, note the fact that }\omega\in X^{-1}[B]\iff X(\omega)\in B\\
+3.\ &\text{We know that }B\text{ is a set of natural numbers, so we have:}\\
+&X(\omega)\in B\iff X(\omega)=n\text{ for some }n\in B\\
+4.\ &\text{From 2 and 3 we also know that }
 \end{aligned}
+$$
+
+To show that our random variable is measurable, we use the following proof:
+$$
 $$
