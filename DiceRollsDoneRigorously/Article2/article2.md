@@ -288,13 +288,32 @@ Given the observation above, we know any set of natural numbers can be labeled e
 
 Moving on, keep this fact in mind: *sets are comprised of unique elements*. If it helps, think of the statement, "this is a set" as a magical wand that automatically removes duplicate elements. Got it? (I bet you do).
 
-So here is a minor quiz (it's not graded don't worry). This will help in the next point. What are the preimages of the following sets of natural numbers? (hint: we are going to use a fact from sigma algebras in the first article, figure 6)
+So here is a minor quiz (it's not graded don't worry). This will help in the following points. What are the preimages of the following sets of natural numbers? *(hint: look at the definition of sigma algebra from the first article, figure 6)*
 $$
 \begin{aligned}
 &A = \{1\}\\
 &B = \{2,3\}\\
 &C = \{\}\\
 &D = \{4, 452\}
-
 \end{aligned}
 $$
+*Figure 24*
+
+Are you ready? And the answer is.... **Pando** Wait no sorry that's the largest living organism by mass in the US (he's a massive clonal tree, basically a single tree that is also a forest) The *actual* answer is:
+$$
+\begin{aligned}
+&X^{-1}[A]=\{\emptyset\}\\
+&X^{-1}[B]=\{(1,1),(1,2),(2,1)\}\\
+&X^{-1}[C]=\{\emptyset\}\\
+&X^{-1}[D]=\{(1,3),(2,2),(3,1),\emptyset\}
+\end{aligned}
+$$
+*Figure 25*
+
+This example helps us see that for any natural number, the corresponding element(s) in the preimage will either be all the dice rolls that sum to said number or the empty set. Here's where our trick comes into play.
+
+First, recall that a sigma algebra is closed under countable union, and since we are using the powerset as our sigma algebra, we have every singleton set contained in the sigma algebra
+
+Next, note that any set of natural numbers can be decomposed into it's underlying singleton elements
+
+Next, we use our defintions from figure 23. Take any arbitrary set of natural numbers (i.e. any arbitrary element of the codomain sigma algebra). If the element selected is the empty set, that just means the preimage is 
