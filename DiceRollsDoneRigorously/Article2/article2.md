@@ -276,7 +276,7 @@ $$
 
 *Figure 22*
 
-### Example to Help
+## Example to Help
 The following might help solidify these concepts. First, let's list our sample space out:
 
 $$
@@ -316,3 +316,6 @@ $$
 *Figure 25*
 
 Notice for an empty set from our codomain sigma algebra, the preimage is simply the empty set. For a natural number that is a valid sum of two dice, we have every combination of rolls from our sample space which sums to that natural number, and if we have multiple valid natural numbers we simply include all those dice rolls in the preimage. Finally, notice that if we have a set of natural numbers with a mix of valid and invalid, we only have to care about the valid sum numbers since those that are invalid lead to the empty set as their preimage.
+
+## All Done!
+If you've made it here, THANK YOU SO MUCH FOR READING. I truly have a passion for mathametics and I'm beyond happy I can share what I find interesting. To recap, in the first article we learned about probability spaces, sigma algebras, and measures. In this artilce, we took things a step further and rigidly defined our random variable, as well as proved that it adheres to the requirements of being a measurable function. In the third (and final) article, we will learn about the induced probability space that our random variable allows us to have. Stay tuned!
